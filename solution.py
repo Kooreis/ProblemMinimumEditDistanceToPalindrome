@@ -1,4 +1,3 @@
-def min_edit_distance(num):
-    num = str(num)
-    n = len(num)
-    dp = [[0 for _ in range(n+1)] for _ in range(n+1)]
+for i in range(n+1):
+        dp[i][0] = i
+        dp[0][i] = i
